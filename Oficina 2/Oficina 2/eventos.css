@@ -1,56 +1,50 @@
-
 h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
 }
 
 
 .container {
-    max-width: 1200px; /* Limita a largura máxima do contêiner a 1200 pixels */
-    margin: 0 auto; /* Centraliza o contêiner horizontalmente na página */
-    padding: 20px; /* Adiciona um preenchimento interno de 20 pixels */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
-
 
 .grid {
-    display: grid; /* Define o elemento como um contêiner de grid */
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Cria colunas que se ajustam automaticamente, com um tamanho mínimo de 300 pixels */
-    gap: 20px; /* Define um espaço de 20 pixels entre as colunas e linhas da grade */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
 }
-
 
 .card {
-    background-color: white; /* Define a cor de fundo do cartão como branco */
-    border-radius: 8px; /* Arredonda os cantos do cartão */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave ao cartão para dar profundidade */
-    overflow: hidden; /* Impede que o conteúdo que ultrapasse os limites do cartão seja exibido */
-    transition: transform 0.3s ease; /* Define uma transição suave para a transformação ao passar o mouse */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
 }
-
 
 .card:hover {
-    transform: scale(1.05); /* Aumenta o tamanho do cartão em 5% quando o mouse está sobre ele */
-}
- 
-.card img {
-    width: 100%; /* Faz a imagem ocupar toda a largura do cartão */
-    height: auto; /* Mantém a proporção da imagem */
+    transform: scale(1.05);
 }
 
+.card img {
+    width: 100%;
+    height: auto;
+}
 
 .card-content {
-    padding: 15px; /* Adiciona um preenchimento interno de 15 pixels ao conteúdo do cartão */
+    padding: 15px;
 }
-
 
 .card-content h2 {
-    font-size: 18px; /* Define o tamanho da fonte do título como 18 pixels */
-    color: #333; /* Define a cor do título como um tom de cinza escuro */
-    margin: 0 0 10px; /* Remove as margens laterais e define uma margem de 10 pixels embaixo */
+    font-size: 18px;
+    color: #333;
+    margin: 0 0 10px;
 }
 
-
 .card-content p {
-    font-size: 14px; /* Define o tamanho da fonte do parágrafo como 14 pixels */
-    color: #666; /* Define a cor do parágrafo como um tom de cinza claro */
-    margin: 0; /* Remove as margens do parágrafo */
+    font-size: 14px;
+    color: #666;
+    margin: 0;
     }
+ 

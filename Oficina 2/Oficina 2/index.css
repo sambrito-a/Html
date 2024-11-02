@@ -5,73 +5,62 @@ p {
     font-size: 150%;  
 }
 
-
-.navbar {
-    width: 100%; /* Define a largura da barra de navegação como 100% da largura da tela */
-    background-color: #000000; /* Define a cor de fundo da barra de navegação como preto */
-    overflow: auto; /* Permite que o conteúdo da barra de navegação seja exibido corretamente, evitando o transbordamento */
-}
-
+.navbar {width: 100%;
+    background-color: #000000;
+    overflow: auto;
+    }
 
 .navbar-title .icon {
-    width: 70px; /* Define a largura do ícone */
-    height: 50px; /* Define a altura do ícone */
-    vertical-align: middle; /* Alinha verticalmente o ícone no meio do texto */
-    margin-right: 8px; /* Adiciona um espaço à direita do ícone */
+        width: 70px;           
+        height: 50px;           
+        vertical-align: middle; 
+        margin-right: 8px;      
+    }
+
+.navbar span{
+    font-family:Verdana;
+    font-size: 24px;
+    color: #f2f2f2;
+    padding: 14px 20px;
+    font-weight: bold;
+    display: inline-block;
 }
-
-
-.navbar span {
-    font-family: Verdana; /* Define a fonte dos textos como Verdana */
-    font-size: 24px; /* Define o tamanho da fonte como 24 pixels */
-    color: #fdf3f3; /* Define a cor do texto como um tom claro (próximo ao branco) */
-    padding: 14px 20px; /* Adiciona um preenchimento de 14 pixels em cima e embaixo e 20 pixels nas laterais */
-    font-weight: bold; /* Define o peso da fonte como negrito */
-    display: inline-block; /* Permite que os elementos <span> se comportem como blocos inline */
-}
-
-
 .navbar a {
-    display: inline-block; /* Permite que os links se comportem como blocos inline */
-    color: #f2f2f2; /* Define a cor dos links como um tom claro (próximo ao branco) */
-    text-align: center; /* Centraliza o texto dos links */
-    padding: 14px 20px; /* Adiciona um preenchimento de 14 pixels em cima e embaixo e 20 pixels nas laterais */
-    text-decoration: none; /* Remove o sublinhado dos links */
-    transition: color 0.3s; /* Define uma transição suave para a mudança de cor em 0.3 segundos */
-    font-size: 25px; /* Define o tamanho da fonte dos links como 25 pixels */
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 25px;
 }
-
 
 .navbar a:hover {
-    text-decoration: underline; /* Adiciona um sublinhado aos links quando o mouse passa sobre eles */
+    text-decoration: underline; 
 }
-
 
 .navbar a:hover {
-    color: #f8f8f8; /* Muda a cor dos links para um tom mais claro quando o mouse passa sobre eles */
+    color: #f8f8f8;
 }
-
 
 .Sobre {
-    max-width: 900px; /* Limita a largura da seção para 900 pixels, melhorando a legibilidade */
-    margin: 20px auto; /* Centraliza a seção na página com uma margem de 20 pixels em cima e embaixo */
-    padding: 15px; /* Adiciona um preenchimento interno de 15 pixels */
-    background-color: #fcfcfc; /* Define a cor de fundo da seção como um tom muito claro */
-    border-radius: 8px; /* Arredonda os cantos da seção */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave à seção para dar profundidade */
+    max-width: 900px; /* Limita a largura do texto para melhor legibilidade */
+    margin: 20px auto; /* Centraliza o conteúdo na página */
+    padding: 15px; /* Espaçamento interno */
+    background-color: #fcfcfc; /* Cor de fundo suave */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
 }
-
 
 .Sobre h2 {
     text-align: center; /* Centraliza o título */
-    color: #4CAF50; /* Define a cor do título como um verde específico */
-    font-size: 40px; /* Define o tamanho da fonte do título como 40 pixels */
+    color: #4CAF50; /* Cor do texto */
+    font-size: 40px;
+    ;
 }
-
-
 .Sobre img {
-    width: 100%; /* Faz a imagem ocupar toda a largura do contêiner da seção */
+    width: 100%; /* Faz a imagem ocupar toda a largura do contêiner */
     height: auto; /* Mantém a proporção da imagem */
     border-radius: 8px; /* Arredonda os cantos da imagem */
-    margin-top: 15px; /* Adiciona um espaço acima da imagem */
+    margin-top: 15px; /* Espaço acima da imagem */
 }
