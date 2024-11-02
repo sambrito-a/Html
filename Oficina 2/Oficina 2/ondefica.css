@@ -1,0 +1,46 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+.container h1 {
+    color: #4CAF50;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    color: #333;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Parágrafos e listas */
+.container p, .container ul {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+}
+
+.container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+/* Estilo para o mapa */
+.map-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.map-container iframe {
+    border-radius: 8px;
+}
